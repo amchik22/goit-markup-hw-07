@@ -91,11 +91,11 @@ img {
   color: var(--primary-bg-color);
 }
 
-.header_menu_item:hover,
-.header_menu_item:focus,
-.info_item:hover,
-.info_item:focus,
-.info_item_icon:hover {
+.navigation_item:hover,
+.navigation_item:focus,
+.contact__link:hover,
+.contact__link:focus,
+.contact__icon:hover {
   color: var(--accent-color);
 }
 
@@ -103,7 +103,7 @@ header {
   border-bottom: 1px solid #ececec;
 }
 
-.header_menu .current {
+.navigation .current {
   color: var(--accent-color);
 }
 
@@ -127,12 +127,12 @@ header .container {
   align-items: center;
 }
 
-.header_menu_list {
+.navigation__list {
   display: flex;
   gap: 50px;
 }
 
-.header_menu_item {
+.navigation_item {
   font-size: 14px;
   font-weight: 500;
   color: var(--title-color);
@@ -152,24 +152,24 @@ header .container {
   left: 0;
 }
 
-.header_info_list {
+.contact__list {
   display: flex;
   gap: 50px;
   margin-left: auto;
   align-items: center;
 }
 
-.header_info_item {
+.contact__item {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.header_menu_item {
+.navigation_item {
   padding: 32px 0;
 }
 
-.info_item {
+.contact__link {
   font-size: 14px;
   font-weight: 500;
   display: flex;
@@ -179,7 +179,7 @@ header .container {
   transition-property: color;
 }
 
-.info_item_icon {
+.contact__icon {
   fill: currentColor;
 }
 
