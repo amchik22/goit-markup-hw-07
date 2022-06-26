@@ -1,0 +1,30 @@
+.work {
+  padding: 0 0 94px;
+
+  &__list {
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  &__item {
+    display: block;
+    position: relative;
+  }
+
+  &-item__title {
+    position: absolute;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    color: var(--primary-bg-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 27px 0;
+    background: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+}

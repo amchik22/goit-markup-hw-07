@@ -1,0 +1,18 @@
+.logo {
+  font-family: "raleway";
+  color: var(--accent-color);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+  padding: 24px 0;
+
+  &__black {
+    color: var(--title-color);
+  }
+
+  &__white {
+    color: var(--primary-bg-color);
+  }
+}

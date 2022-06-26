@@ -1,0 +1,30 @@
+.contact__list {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+  align-items: center;
+}
+.contact__link:hover,
+.contact__link:focus,
+.contact__icon:hover {
+  color: var(--accent-color);
+}
+.contact__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact__link {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: var(--transition);
+  transition-property: color;
+}
+
+.contact__icon {
+  fill: currentColor;
+}

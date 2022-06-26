@@ -1,0 +1,37 @@
+.peculiarities {
+  padding: 94px 0;
+
+  &__wrapper {
+    gap: 30px;
+  }
+
+  &__item {
+    width: 270px;
+  }
+
+  &-item__icon {
+    display: flex;
+    height: 120px;
+    width: 270px;
+    background-color: var(--background-team-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &-item__title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+  }
+
+  &-item__text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+  }
+}
