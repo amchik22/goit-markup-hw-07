@@ -10,10 +10,6 @@
   height: 44px;
 }
 
-.social__links a {
-  border-radius: 50%;
-}
-
 .social__link {
   display: flex;
   justify-content: center;
@@ -23,11 +19,15 @@
   fill: #afb1b8;
   transition: var(--transition);
   transition-property: background-color, fill;
-}
 
-.social__link:focus,
-.social__link:hover {
-  background-color: var(--accent-color);
-  border-radius: 50%;
-  fill: #fff;
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    fill: #fff;
+  }
+
+  & {
+    border-radius: 50%;
+  }
 }

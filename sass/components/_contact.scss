@@ -4,11 +4,7 @@
   margin-left: auto;
   align-items: center;
 }
-.contact__link:hover,
-.contact__link:focus,
-.contact__icon:hover {
-  color: var(--accent-color);
-}
+
 .contact__item {
   display: flex;
   align-items: center;
@@ -23,8 +19,17 @@
   gap: 10px;
   transition: var(--transition);
   transition-property: color;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .contact__icon {
   fill: currentColor;
+
+  &:hover {
+    color: var(--accent-color);
+  }
 }
