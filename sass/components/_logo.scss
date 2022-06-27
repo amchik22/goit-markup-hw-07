@@ -1,5 +1,5 @@
 .logo {
-  @include font("raleway", 26px, 700, 1.2, 0.03em);
+  @include font(26px, 700, 1.2, 0.03em, "raleway");
   color: var(--accent-color);
   margin-right: 93px;
   padding: 24px 0;

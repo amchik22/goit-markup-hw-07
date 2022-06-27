@@ -12,7 +12,7 @@
 }
 
 .contact__link {
-  @include font("roboto", 14px, 500, 1.15, 0.02em);
+  @include font(14px, 500, 1.15, 0.02em);
   display: flex;
   align-items: center;
   gap: 10px;

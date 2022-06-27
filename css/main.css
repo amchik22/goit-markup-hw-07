@@ -40,11 +40,11 @@ img {
 
 .logo {
   font-family: "raleway";
-  color: var(--accent-color);
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  color: var(--accent-color);
   margin-right: 93px;
   padding: 24px 0;
 }
@@ -94,13 +94,12 @@ img {
   fill: var(--accent-color);
 }
 .modal-title {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
+  font-family: "roboto";
   font-size: 20px;
+  font-weight: 700;
   line-height: 0.8;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   margin-bottom: 12px;
 }
 .modal-form__label {
@@ -114,6 +113,7 @@ img {
   margin-bottom: 20px;
 }
 .modal-form__text {
+  font-family: "roboto";
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -169,10 +169,7 @@ img {
   cursor: pointer;
 }
 .modal-policy__text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-size: 14px;
-  font-weight: 400;
+  font-family: "roboto";
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -253,8 +250,11 @@ img {
 }
 
 .contact__link {
+  font-family: "roboto";
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -293,6 +293,7 @@ img {
   fill: #afb1b8;
   transition: var(--transition);
   transition-property: background-color, fill;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .social__link:focus, .social__link:hover {
   background-color: var(--accent-color);
@@ -329,6 +330,7 @@ img {
 }
 
 .title {
+  font-family: "roboto";
   font-size: 36px;
   font-weight: 700;
   line-height: 1.2;
@@ -389,6 +391,7 @@ img {
   margin-right: auto;
 }
 .solutions__title {
+  font-family: "roboto";
   font-size: 44px;
   font-weight: 900;
   line-height: 1.4;
@@ -419,6 +422,7 @@ img {
   align-items: center;
 }
 .peculiarities-item__title {
+  font-family: "roboto";
   font-size: 14px;
   font-weight: 700;
   line-height: 1.2;
@@ -426,6 +430,7 @@ img {
   margin-bottom: 10px;
 }
 .peculiarities-item__text {
+  font-family: "roboto";
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -443,13 +448,13 @@ img {
   position: relative;
 }
 .work-item__title {
+  font-family: "roboto";
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   position: absolute;
   text-transform: uppercase;
-  font-family: "Roboto";
   color: var(--primary-bg-color);
   text-align: center;
   padding: 27px 0;
@@ -477,12 +482,14 @@ img {
   padding: 30px 0;
 }
 .team-item__title {
+  font-family: "roboto";
   font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
 .team-item__text {
+  font-family: "roboto";
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -571,15 +578,16 @@ img {
   border-top: none;
 }
 .mainbg-item__title {
-  color: var(--title-color);
-  font-weight: 700;
+  font-family: "roboto";
   font-size: 18px;
+  font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--title-color);
   margin: 0;
 }
 .mainbg-item__text {
-  font-weight: 400;
+  font-family: "roboto";
   font-size: 16px;
   line-height: 2;
   letter-spacing: 0.03em;
@@ -593,6 +601,7 @@ img {
   display: block;
 }
 .mainbg-item__info {
+  font-family: "roboto";
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
@@ -601,7 +610,6 @@ img {
   left: 0;
   color: #fff;
   background-color: rgba(33, 150, 243, 0.9);
-  font-family: "Roboto";
   padding: 63px 24px;
   transform: translateY(100%);
   transition: transform 250ms linear;
@@ -651,24 +659,21 @@ img {
   margin-left: 12px;
 }
 .footer .contact__link {
-  color: rgba(255, 255, 255, 0.6);
+  font-family: "roboto";
+  font-size: 14px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  font-weight: 400;
+  letter-spacing: 0.03em;
   display: block;
   margin-top: 9px;
 }
 .footer__title {
-  font-weight: 700;
+  font-family: "roboto";
   font-size: 14px;
-  line-height: 16px;
+  font-weight: 700;
+  line-height: 1.15;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-bg-color);
-}
-.footer .social__link {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
 }
 .footer .social__icon use {
   fill: #fff;

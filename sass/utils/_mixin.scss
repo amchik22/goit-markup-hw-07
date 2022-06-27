@@ -1,4 +1,4 @@
-@mixin font($ff, $fs, $fw, $ln, $ls) {
+@mixin font($fs, $fw, $ln, $ls, $ff: "roboto") {
   font-family: $ff;
   font-size: $fs;
   font-weight: $fw;

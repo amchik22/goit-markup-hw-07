@@ -12,7 +12,7 @@
   }
 
   &-item__title {
-    @include font("roboto", 14px, 700, 1.14, 0.03em);
+    @include font(14px, 700, 1.14, 0.03em);
     position: absolute;
     text-transform: uppercase;
     color: var(--primary-bg-color);

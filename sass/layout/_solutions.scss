@@ -19,7 +19,7 @@
   }
 
   &__title {
-    @include font("roboto", 44px, 900, 1.4, 0.06em);
+    @include font(44px, 900, 1.4, 0.06em);
     color: var(--primary-bg-color);
     text-align: center;
     text-transform: uppercase;

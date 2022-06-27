@@ -20,11 +20,11 @@
   }
 
   &-item__title {
-    @include font("roboto", 16px, 500, 1.2, 0.03em);
+    @include font(16px, 500, 1.2, 0.03em);
   }
 
   &-item__text {
-    @include font("roboto", 16px, null, 1.2, 0.03em);
+    @include font(16px, null, 1.2, 0.03em);
     margin-top: 10px;
   }
 }
