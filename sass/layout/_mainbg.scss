@@ -48,6 +48,7 @@
 
   &:hover &__info {
     transform: translateY(0);
+    opacity: 1;
   }
 
   &__desribe {
@@ -78,6 +79,7 @@
 
   &__info {
     @include font(18px, null, 1.55, 0.03em);
+    opacity: 0;
     position: absolute;
     top: 0;
     left: 0;

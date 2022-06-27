@@ -571,6 +571,7 @@ img {
 }
 .mainbg-item:hover .mainbg-item__info {
   transform: translateY(0);
+  opacity: 1;
 }
 .mainbg-item__desribe {
   padding: 20px 24px;
@@ -605,6 +606,7 @@ img {
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
+  opacity: 0;
   position: absolute;
   top: 0;
   left: 0;
