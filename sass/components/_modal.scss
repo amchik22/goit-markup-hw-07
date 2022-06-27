@@ -30,13 +30,8 @@
   }
 
   &-title {
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 0.8;
+    @include font("roboto", 20px, 700, 0.8, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     margin-bottom: 12px;
   }
 
@@ -54,9 +49,7 @@
   }
 
   &-form__text {
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
+    @include font("roboto", 12px, null, 1.16, 0.01em);
     color: #757575;
     margin-bottom: 4px;
   }
@@ -120,13 +113,7 @@
   }
 
   &-policy__text {
-    font-family: "Roboto";
-    font-style: normal;
-    font-size: 14px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    @include font("roboto", 14px, null, 1.7, 0.03em);
   }
 
   &-policy__check {
