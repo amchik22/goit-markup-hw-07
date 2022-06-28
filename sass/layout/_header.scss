@@ -1,4 +1,7 @@
 .header {
+  @include mq(mob-only) {
+    padding: 16px 0;
+  }
   border-bottom: 1px solid #ececec;
   .container {
     display: flex;

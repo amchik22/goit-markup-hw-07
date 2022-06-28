@@ -2,12 +2,21 @@
   padding: 94px 0;
   background-color: var(--background-team-color);
 
-  &__list {
+  .team__list {
+    @include mq(mob) {
+      display: flex;
+      justify-content: center;
+    }
+    flex-wrap: wrap;
     gap: 30px;
     margin-top: 50px;
   }
 
-  &__item {
+  .team__item {
+    @include mq(mob-only) {
+      width: 450px;
+      height: 622px;
+    }
     background-color: var(--primary-bg-color);
     text-align: center;
     width: 270px;
@@ -15,15 +24,15 @@
       0px 2px 1px rgba(0, 0, 0, 0.2);
   }
 
-  &-item__wrapper {
+  .team-item__wrapper {
     padding: 30px 0;
   }
 
-  &-item__title {
+  .team-item__title {
     @include font(16px, 500, 1.2, 0.03em);
   }
 
-  &-item__text {
+  .team-item__text {
     @include font(16px, null, 1.2, 0.03em);
     margin-top: 10px;
   }

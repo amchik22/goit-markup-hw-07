@@ -24,11 +24,14 @@
 }
 
 .title {
-  @include font(36px, 700, 1.2, 0.03);
+  @include font(28px, 700, 1.2, 0.03);
   display: block;
   margin: 0 auto;
   text-align: center;
   color: var(--title-color);
+  @include mq(desc) {
+    @include font(36px, 700, 1.2, 0.03);
+  }
 }
 
 .text {

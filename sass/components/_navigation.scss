@@ -1,5 +1,5 @@
 .navigation {
-  &__item {
+  .navigation__item {
     font-size: 14px;
     font-weight: 500;
     color: var(--title-color);
@@ -18,7 +18,10 @@
   }
 
   &__list {
-    display: flex;
-    gap: 50px;
+    display: none;
+    @include mq(tab) {
+      display: flex;
+      gap: 50px;
+    }
   }
 }

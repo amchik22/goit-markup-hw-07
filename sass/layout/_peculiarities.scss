@@ -1,31 +1,40 @@
 .peculiarities {
   padding: 94px 0;
 
-  &__wrapper {
+  .peculiarities__wrapper {
     gap: 30px;
   }
 
-  &__item {
-    width: 270px;
+  .peculiarities__item {
+    @include mq(desc) {
+      width: 270px;
+    }
   }
 
-  &-item__icon {
+  .peculiarities-item__icon {
     display: flex;
-    height: 120px;
-    width: 270px;
-    background-color: var(--background-team-color);
-    border-radius: 4px;
     margin-bottom: 30px;
     justify-content: center;
     align-items: center;
+    background-color: var(--background-team-color);
+    border-radius: 4px;
+    height: 120px;
+    max-width: 450px;
+    margin-bottom: 30px;
+    @include mq(desc) {
+      width: 270px;
+    }
   }
 
-  &-item__title {
+  .peculiarities-item__title {
     @include font(14px, 700, 1.2, 0.03em);
     margin-bottom: 10px;
+    @include mq(mob-only) {
+      text-align: center;
+    }
   }
 
-  &-item__text {
+  .peculiarities-item__text {
     @include font(14px, null, 1.7, 0.03em);
   }
 }
